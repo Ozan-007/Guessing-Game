@@ -5,10 +5,10 @@ let guessButton = document.getElementById("submit");
 guessButton.addEventListener("click", guessing);
 
 
+let randNum = Math.floor(Math.random() * 101);
 ///FUNCTION
 function guessing()
 {
-    let randNum = Math.floor(Math.random() * 101);
     var userNum = InputField.value;
 
     if(userNum > randNum + 20){
