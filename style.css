@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    min-height: 100vh;
+    background-image: url(overlapping-forms-background_23-2148677060.jpg);
+    background-size: cover;
+}
+
+
+
+
+.box{
+    display:flex;
+    width: 40%;
+    padding:2rem;
+    height: 40vh;
+    margin-top: 8vh;
+    text-align: center;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+    background-image: linear-gradient(180deg,rgb(231, 255, 20),#f02);
+    border-radius: 1rem;
+}
+
+.headline{
+    max-width: 100%;
+    margin: 1vh;
+    font-size: 180%;
+    margin-bottom: 5vh;
+    text-align: center;
+    color: black;
+
+}
+
+
+#guess{
+width: 100%;
+margin: 1vh;
+padding: 1vh;
+font-size: 2vh;
+font-weight:bolder;
+outline:none;
+border:none;
+}
+
+button{
+    padding: 1vh;
+    font-family: 'Roboto', sans-serif;
+    cursor:pointer;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+}
+
+button:hover{
+    background-color:rgb(255, 238, 4);
+
+
+}
