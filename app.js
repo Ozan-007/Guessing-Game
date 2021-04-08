@@ -17,11 +17,11 @@ function guessing()
     else if(userNum > randNum){
         alert(`${userNum} is high.`);
     }
-    else if(userNum < randNum){
-        alert(`${userNum} is low.`);
-    }
     else if(userNum < randNum - 20){
         alert(`${userNum} is too low.`);
+    }
+    else if(userNum < randNum){
+        alert(`${userNum} is low.`);
     }
     else if(userNum == randNum){
         alert(` YOU ARE THE WINNER NUMBER WAS ${userNum} !!!`)
